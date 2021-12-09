@@ -1,0 +1,202 @@
+._01-hero-sction {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100vw;
+  height: 75vh;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+  background-color: #28282e;
+  color: #28282e;
+}
+
+.hero-text-wrapper {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  width: 50%;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: start;
+  -webkit-align-items: flex-start;
+  -ms-flex-align: start;
+  align-items: flex-start;
+}
+
+.text-block {
+  font-family: Inter, sans-serif;
+  color: #fff;
+  font-weight: 100;
+}
+
+.text-block.are-you {
+  font-size: 12px;
+  line-height: 24px;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+}
+
+.text-block.cm {
+  font-size: 60px;
+  line-height: 120px;
+  font-weight: 700;
+}
+
+.text-block.workplace {
+  margin-top: 20px;
+  font-weight: 100;
+  letter-spacing: 0.5px;
+}
+
+.community-manager {
+  margin-bottom: 0px;
+  font-family: Inter, sans-serif;
+  color: #fff;
+  font-size: 60px;
+  line-height: 60px;
+  font-weight: 700;
+}
+
+.logo-wrapper {
+  padding-bottom: 20px;
+}
+
+._02-section {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+._01-intro-txt-wrapper {
+  display: block;
+  width: 50vw;
+  margin-top: 100px;
+  margin-bottom: 100px;
+  padding-right: 0px;
+}
+
+.txt-block {
+  font-family: Inter, sans-serif;
+  color: #28282e;
+  line-height: 24px;
+}
+
+.application-dm-link {
+  color: #2070cc;
+  font-weight: 600;
+  text-decoration: none;
+}
+
+._02-about-sienna-wrapper {
+  width: 50vw;
+}
+
+.text-block-2 {
+  margin-bottom: 100px;
+  font-family: Inter, sans-serif;
+  color: #28282e;
+  line-height: 24px;
+}
+
+.link {
+  color: #2070cc;
+}
+
+.sienna-link {
+  color: #2070cc;
+}
+
+.mail-link {
+  color: #2070cc;
+}
+
+@media screen and (max-width: 991px) {
+  .hero-text-wrapper {
+    width: auto;
+    -webkit-box-align: start;
+    -webkit-align-items: flex-start;
+    -ms-flex-align: start;
+    align-items: flex-start;
+  }
+
+  ._01-intro-txt-wrapper {
+    width: 75vw;
+    margin-top: 60px;
+    margin-bottom: 60px;
+  }
+
+  ._02-about-sienna-wrapper {
+    width: 75vw;
+  }
+
+  .text-block-2 {
+    margin-bottom: 60px;
+  }
+}
+
+@media screen and (max-width: 479px) {
+  .hero-text-wrapper {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    margin-right: 0px;
+    margin-left: 0px;
+    padding-right: 0px;
+    padding-left: 0px;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+  }
+
+  .community-manager {
+    font-size: 50px;
+    line-height: 50px;
+  }
+
+  ._01-intro-txt-wrapper {
+    width: 90vw;
+  }
+
+  ._02-about-sienna-wrapper {
+    width: 90vw;
+  }
+}
+
+html{visibility: visible;opacity:1;}
